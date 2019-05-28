@@ -10,7 +10,7 @@ const knexConfig={
   },
   useNullAsDefault:true, //needed for sqlite
 
-};
+}
 const db = knex(knexConfig);
 const server = express();
 
